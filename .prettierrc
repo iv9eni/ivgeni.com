@@ -1,0 +1,26 @@
+{
+    "plugins": ["prettier-plugin-svelte"],
+    "pluginSearchDirs": [
+        ".",
+        "node_modules/prettier-plugin-svelte",
+        "node_modules/prettier-plugin-tailwindcss"
+    ],
+    "tailwindStylesheet": "./src/routes/layout.css",
+    "overrides": [
+        {
+            "files": "*.svelte",
+            "options": {
+                "parser": "svelte"
+            }
+        }
+    ],
+    "svelteSortOrder": "options-scripts-markup-styles",
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 80,
+    "tabWidth": 4,
+    "useTabs": false,
+    "bracketSpacing": true,
+    "semi": true,
+    "arrowParens": "avoid"
+}
