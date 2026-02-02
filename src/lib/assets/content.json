@@ -21,10 +21,12 @@
             "platform": "email"
         },
         {
-            "name": "Resume",
-            "url": "https://drive.proton.me/urls/744F995H2G#oAhe5RPqtSTr",
-            "icon": "download",
-            "platform": "resume"
+            "name": "PDF",
+            "url": "https://resume.ivgeni.com/",
+            "icon": "pdf",
+            "platform": "ivgeni",
+            "color": "#ef5350",
+            "darkColor": "#ff7961"
         }
     ],
     "experience": [

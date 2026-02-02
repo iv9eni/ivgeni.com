@@ -4,8 +4,8 @@ The Svelte application I host from [ivgeni.com](ivgeni.com)
 
 ## How to start
 
-1. I usually just run it in a Codespace and .devcontainer setups all things necessary for dev which is just ```npm install```
-2. Start development environment with: ```npm run dev``` and it'll be available at ```http://localhost:5173``` if you're not already using that port
+1. I usually just run it in a Codespace and .devcontainer setups all things necessary for dev which is just `npm install`
+2. Start development environment with: `npm run dev` and it'll be available at `http://localhost:5173` if you're not already using that port
 
 ## Noteworthy things
 
@@ -17,7 +17,7 @@ Svelte has an adapter specifically for SSR which is compatible with Github pages
 export const prerender = true;
 ```
 
-Also, by default, Github builds websites using Jekyll but since I'm using SvelteKit that won't work. To turn of Jekyll you just put an empty file under ```/static/.nojekyll```.
+Also, by default, Github builds websites using Jekyll but since I'm using SvelteKit that won't work. To turn of Jekyll you just put an empty file under `/static/.nojekyll`.
 
 _...need to write the rest of this later when I actually deploy it to Github Pages lol..._
 
