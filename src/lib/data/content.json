@@ -1,0 +1,63 @@
+{
+    "name": "Ivgeni Darinski",
+    "education": "Bachelor of Computer Science @ University of Western Ontario",
+    "social": [
+        {
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/in/ivgenidarinski",
+            "icon": "linkedin",
+            "platform": "linkedin"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/iv9eni",
+            "icon": "github",
+            "platform": "github"
+        },
+        {
+            "name": "Email",
+            "url": "mailto:ivgeni.darinski@hotmail.com",
+            "icon": "email",
+            "platform": "email"
+        },
+        {
+            "name": "PDF",
+            "url": "https://resume.ivgeni.com/",
+            "icon": "pdf",
+            "platform": "ivgeni",
+            "color": "#ef5350",
+            "darkColor": "#ff7961"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Tactable",
+            "period": "aug 2025-now",
+            "description": "building full-stack financial applications for Two Sigma and TD Securities"
+        },
+        {
+            "company": "Teranet",
+            "period": "jan-aug 2025",
+            "description": "providing all of Canada's estate and property analysis needs to 100K+ users"
+        },
+        {
+            "company": "Intact",
+            "period": "2019-2025",
+            "description": "making it easy to sell commercial insurance products to 5M+ people"
+        }
+    ],
+    "projects": [
+        {
+            "title": "ivgeni.com",
+            "description": "this website that you're on right now, my portfolio",
+            "tags": ["Bun", "Vite", "Svelte", "Tailwind", "Github Pages"],
+            "link": "https://github.com/iv9eni/ivgeni.com"
+        }
+    ],
+    "sections": {
+        "experience": "experience",
+        "education": "education",
+        "projects": "project archive"
+    },
+    "footer": "Built with Bun, Vite, Svelte, and Tailwind. Deployed with Github Pages."
+}
