@@ -6,3 +6,16 @@ export interface Social {
     color?: string;
     darkColor?: string;
 }
+
+export interface Experience {
+    company: string;
+    period: string;
+    description: string;
+}
+
+export interface Project {
+    title: string;
+    description: string;
+    tags: string[];
+    link?: string;
+}
