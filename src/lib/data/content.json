@@ -16,13 +16,13 @@
         },
         {
             "name": "Email",
-            "url": "mailto:ivgeni.darinski@hotmail.com",
+            "url": "mailto:ivgeni.darinski@outlook.com",
             "icon": "email",
             "platform": "email"
         },
         {
             "name": "PDF",
-            "url": "https://resume.ivgeni.com/",
+            "url": "https://drive.proton.me/urls/FFKNYHC6FW#BxRM8VcFFVL8",
             "icon": "pdf",
             "platform": "ivgeni",
             "color": "#ef5350",
@@ -49,9 +49,15 @@
     "projects": [
         {
             "title": "ivgeni.com",
-            "description": "this website that you're on right now, my portfolio",
+            "description": "this website",
             "tags": ["Bun", "Vite", "Svelte", "Tailwind", "Github Pages"],
             "link": "https://github.com/iv9eni/ivgeni.com"
+        },
+        {
+            "title": "commercial vehicle insurance",
+            "description": "quick quote for commercial vehicle risk",
+            "tags": ["Angular", "Java", "Spring", "SQL"],
+            "link": "https://www.intact.ca/en/business-insurance/coverage/commercial-vehicle-insurance"
         }
     ],
     "sections": {
