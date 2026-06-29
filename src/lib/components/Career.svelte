@@ -229,12 +229,12 @@
           on:error={() => { const w = document.getElementById('video-wrap'); if (w) w.style.display = 'none'; }}></video>
       </div>
       <div class="reveal flex flex-col gap-4">
-        <a class="link self-start" href="https://paperpredict.ivgeni.com" target="_blank" rel="noopener">visit site ↗</a>
         <div class="flex flex-wrap gap-2 font-mono text-sm text-[#8b94a3]">
           {#each ['Next.js', 'Ruby', 'Fly.io', 'Vercel', 'Claude Design', 'local-first'] as tag}
             <span class="rounded-full border border-white/10 px-3 py-1">{tag}</span>
           {/each}
         </div>
+        <a class="link self-start" href="https://paperpredict.ivgeni.com" target="_blank" rel="noopener">visit site ↗</a>
       </div>
     </div>
   </section>
