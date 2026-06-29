@@ -222,7 +222,7 @@
       </div>
       <h2 class="reveal mb-5 text-[clamp(2.6rem,7vw,5.2rem)] font-semibold leading-[0.98] tracking-[-0.02em]">PaperPredict</h2>
       <p class="reveal mb-10 max-w-[45ch] text-[clamp(1.2rem,2.2vw,1.55rem)] leading-snug text-[#cdd3dc]">
-        Paper trading platform for stocks and options. Built local-first so every interaction feels instant. Real market data, no real money.
+        Prediction market simulator powered by the Kalshi API. No account. Your data lives in the browser.
       </p>
       <div class="reveal mb-10 overflow-hidden rounded-2xl border border-white/10 bg-white/5" id="video-wrap">
         <video src="{base}/paperpredict-demo.mov" autoplay muted loop playsinline class="w-full" style="display:block"
