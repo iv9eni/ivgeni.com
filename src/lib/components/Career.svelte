@@ -1,6 +1,7 @@
 <script lang="ts">
   import { spring } from 'svelte/motion';
   import { onMount } from 'svelte';
+  import { base } from '$app/paths';
   import { roles, accentArc } from './roles';
 
   const progress = spring(0, { stiffness: 0.08, damping: 0.9 });
@@ -171,7 +172,7 @@
 
 <!-- sticky 3D stage -->
 <div class="fixed inset-0 z-0">
-  <canvas bind:this={canvasEl} style="display:block;width:100%;height:100%" />
+  <canvas bind:this={canvasEl} style="display:block;width:100%;height:100%"></canvas>
 </div>
 <div class="pointer-events-none fixed inset-0 z-10"
      style="background: radial-gradient(120% 90% at 50% 50%, transparent 35%, rgba(7,8,11,0.55) 100%)"></div>
@@ -224,8 +225,8 @@
         Paper trading platform for stocks and options. Built local-first so every interaction feels instant. Real market data, no real money.
       </p>
       <div class="reveal mb-10 overflow-hidden rounded-2xl border border-white/10 bg-white/5" id="video-wrap">
-        <video src="/paperpredict-demo.mov" autoplay muted loop playsinline class="w-full" style="display:block"
-          on:error={() => { const w = document.getElementById('video-wrap'); if (w) w.style.display = 'none'; }} />
+        <video src="{base}/paperpredict-demo.mov" autoplay muted loop playsinline class="w-full" style="display:block"
+          on:error={() => { const w = document.getElementById('video-wrap'); if (w) w.style.display = 'none'; }}></video>
       </div>
       <div class="reveal flex flex-col gap-4">
         <a class="link self-start" href="https://paperpredict.ivgeni.com" target="_blank" rel="noopener">visit site ↗</a>
