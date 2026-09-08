@@ -49,7 +49,7 @@ export const roles: Role[] = [
     desc: 'Building full-stack financial applications for institutional clients.',
     accent: '#d9b25f',
     progress: 0.75,
-    statText: 'Two Sigma · TD Securities',
+    statText: 'HFT · FinTech · Series A+',
     statLabel: 'clients',
   },
 ];
